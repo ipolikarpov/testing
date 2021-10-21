@@ -12,7 +12,6 @@ class Coach extends Model
     public function athletes()
     {
         return $this->hasMany(Athlete::class, 'realcoaches_id', 'id');
-
     }
 }
 
