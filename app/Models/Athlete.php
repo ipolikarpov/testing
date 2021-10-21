@@ -11,7 +11,7 @@ class Athlete extends Model
 
     public function coaches()
     {
-        return $this->belongsTo(Coach::class, 'id', 'realcoaches_id');
+        return $this->belongsTo(Coach::class, 'realcoaches_id', 'id');
     }
 
 
