@@ -15,6 +15,7 @@ class AthleteController extends Controller
         $coaches = Coach::find(1)->athletes;
         dd($coaches);
         asdasd
+            adasd
 
     }
 
